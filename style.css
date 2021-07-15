@@ -24,6 +24,7 @@ div {
 /* ------------Seccion 1------------ */
 .secc1{ 
     background-color:#D3F3E6;
+
     width: 100%;
     background-repeat: no-repeat;}
 
@@ -132,11 +133,21 @@ align-items: center;}
 color: #FBD55F;}
 
 .viaje {
-   margin-top: 70px;
+   margin-top: 60px;
    
 }
 .img {
-    margin-top: 60px;}
+    margin: 100px 0px 0px 30px;
+        width: 250px;
+       height: 250px;
+
+    } 
+    
+
+        
+    #fotos {
+height: 100px;
+width: 100px;}
 
 .hobbies {
     margin-top: 70px;
@@ -194,3 +205,34 @@ align-items: center;
  align-items: center;
  text-align: center;}
 
+ #fotos{    
+    width: 250px;
+   height: 250px;
+  animation-name: animacion;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+
+
+
+
+@keyframes animacion {
+    0% {
+        width: 192px;
+        height:186px;
+        background: url(3.png);}
+     
+     50% {
+        width: 192px;
+        height:186px;
+        background: url(1.png);}
+    
+    100% {
+        width: 192px;
+        height:186px;
+        background: url(2.png);}
+    
+}
