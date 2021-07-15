@@ -110,7 +110,7 @@ align-items: center;}
 
 /* ---------------------------SECCION 2-------------------------------------------------- */
 
- .columna2 {width: 100vw;
+  .columna2 {width: 100vw;
     height: 450px;
     
     margin: 0cm;
@@ -137,7 +137,7 @@ color: #FBD55F;}
    
 }
 .img {
-    margin: 100px 0px 0px 30px;
+    margin: 70px;
         width: 250px;
        height: 250px;
 
@@ -156,6 +156,7 @@ width: 100px;}
 .tec {
     margin-top:20px;
 }
+
 
 
 /* -------------------------------footer---------------------- */
