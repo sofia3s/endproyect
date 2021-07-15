@@ -207,8 +207,8 @@ align-items: center;
  text-align: center;}
 
  #fotos{    
-    width: 250px;
-   height: 250px;
+     width: 140px;
+        height:140px;
   animation-name: animacion;
   animation-duration: 6s;
   animation-iteration-count: infinite;
@@ -222,18 +222,18 @@ align-items: center;
 
 @keyframes animacion {
     0% {
-        width: 192px;
-        height:186px;
+      width: 140px;
+        height:135px;
         background: url(3.png);}
      
      50% {
-        width: 192px;
-        height:186px;
+        width: 140px;
+        height:135px;
         background: url(1.png);}
     
     100% {
-        width: 192px;
-        height:186px;
+     width: 140px;
+        height:135px;
         background: url(2.png);}
     
 }
