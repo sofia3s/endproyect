@@ -110,44 +110,38 @@ align-items: center;}
 
 /* ---------------------------SECCION 2-------------------------------------------------- */
 
-  .columna2 {width: 100vw;
-    height: 450px;
-    
-    margin: 0cm;
+ .columna2 {width: 100vw;
+    height: 360px;
+        margin: 0cm;
             font-family: 'Otomanopee One', sans-serif;
         color: #a9d2da;
         background-color:#0f4c5c ;
-        /* background-color:#a3b1e7; */
-           text-align: center;
-           
-           /* border: 2px solid black; */
-        }
+        text-align: center;
+         }
 
  ul,ol {text-align: left; 
            display: inline-block;
            
  }
-      
+
       
 .titulo {font-size: 2em;
 color: #FBD55F;}
 
 .viaje {
-   margin-top: 60px;
+   margin-top: 50px;
    
 }
-.img {
-    margin: 70px;
-        width: 250px;
-       height: 250px;
-
-    } 
-    
+/* .img {
+    margin-top: 70px;
+    margin-left: 0px;
+    }  */
+.id    
 
         
-    #fotos {
+    /* #fotos {
 height: 100px;
-width: 100px;}
+width: 100px;} */
 
 .hobbies {
     margin-top: 70px;
@@ -156,7 +150,6 @@ width: 100px;}
 .tec {
     margin-top:20px;
 }
-
 
 
 /* -------------------------------footer---------------------- */
@@ -206,23 +199,19 @@ align-items: center;
  align-items: center;
  text-align: center;}
 
- #fotos{    
-     width: 140px;
+ #fotos{margin: 60px;
+    width: 140px;
         height:140px;
   animation-name: animacion;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-}
 
 
-
+  }
 
 @keyframes animacion {
     0% {
-      width: 140px;
+        width: 140px;
         height:135px;
         background: url(3.png);}
      
@@ -232,8 +221,7 @@ align-items: center;
         background: url(1.png);}
     
     100% {
-     width: 140px;
+        width: 140px;
         height:135px;
         background: url(2.png);}
     
-}
